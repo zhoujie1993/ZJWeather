@@ -10,9 +10,7 @@
 #ifndef _4___Header_h
 #define _4___Header_h
 
-
-
-#define IdValue  @"f377a56d06ca0e620bcf1088bd2a5361"
+#define IdValue  @"6df12689ce7e66d94b95c9d77dca6a56"
 #define IdKenKey  @"key"
 
 #define  BaseUrl @"http://v.juhe.cn/weather/"
