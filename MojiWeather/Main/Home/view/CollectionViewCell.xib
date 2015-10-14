@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -15,7 +15,7 @@
                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dYz-jz-leh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="564"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_na.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UMZ-Kz-tpA">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_fog.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UMZ-Kz-tpA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="564"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d8e-2M-Xg5" userLabel="今天">
@@ -38,7 +38,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun_icon" translatesAutoresizingMaskIntoConstraints="NO" id="aOe-9O-s63">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aOe-9O-s63">
                                         <rect key="frame" x="40" y="58" width="30" height="30"/>
                                     </imageView>
                                 </subviews>
@@ -64,7 +64,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun_icon" translatesAutoresizingMaskIntoConstraints="NO" id="HVi-i1-OdT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HVi-i1-OdT">
                                         <rect key="frame" x="41" y="58" width="30" height="30"/>
                                     </imageView>
                                 </subviews>
@@ -162,7 +162,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sun_icon" translatesAutoresizingMaskIntoConstraints="NO" id="73a-Ng-Xmg">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="73a-Ng-Xmg">
                                         <rect key="frame" x="40" y="58" width="30" height="30"/>
                                     </imageView>
                                 </subviews>
@@ -174,10 +174,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board_short" translatesAutoresizingMaskIntoConstraints="NO" id="kDh-jG-Nov">
-                                <rect key="frame" x="150" y="255" width="75" height="53"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </imageView>
                         </subviews>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </scrollView>
@@ -214,11 +210,9 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="bg_na.jpg" width="640" height="1136"/>
-        <image name="board_short" width="624" height="320"/>
+        <image name="bg_fog.jpg" width="640" height="1136"/>
         <image name="humidity_temp_icon" width="28" height="28"/>
         <image name="monitor_circle" width="320" height="320"/>
-        <image name="sun_icon" width="36" height="36"/>
         <image name="wind_direction_icon" width="28" height="28"/>
         <image name="wind_rotary" width="30" height="28"/>
     </resources>

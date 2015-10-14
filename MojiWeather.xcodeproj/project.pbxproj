@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0403508D1BCBEFD100FA1FAB /* bg_fog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0403508C1BCBEFD100FA1FAB /* bg_fog.jpg */; settings = {ASSET_TAGS = (); }; };
 		33EF2D70F2F2BE27599ABBAD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2913AFD6E0498CD023C29298 /* libPods.a */; };
 		4A23BF2F1BAC48F2007FAD86 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A23BF2D1BAC48F2007FAD86 /* CommentTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		4A23BF301BAC48F2007FAD86 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A23BF2E1BAC48F2007FAD86 /* CommentTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
@@ -14,7 +15,6 @@
 		4A23BF371BAC722D007FAD86 /* ZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A23BF361BAC722D007FAD86 /* ZoomImageView.m */; settings = {ASSET_TAGS = (); }; };
 		4A671C751BAD491700D848AD /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A671C741BAD491700D848AD /* BaseNavController.m */; settings = {ASSET_TAGS = (); }; };
 		4AAF68311BACF57E00250F55 /* SendCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF68301BACF57E00250F55 /* SendCommentViewController.m */; settings = {ASSET_TAGS = (); }; };
-		4ABC652A1BA9764F00E9430F /* bg_na.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC650B1BA9764F00E9430F /* bg_na.jpg */; };
 		4ABC652B1BA9764F00E9430F /* cityCode.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC650C1BA9764F00E9430F /* cityCode.plist */; };
 		4ABC652C1BA9764F00E9430F /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC65101BA9764F00E9430F /* PresentViewController.m */; };
 		4ABC652D1BA9764F00E9430F /* PresentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC65111BA9764F00E9430F /* PresentViewController.xib */; };
@@ -443,6 +443,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0403508C1BCBEFD100FA1FAB /* bg_fog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_fog.jpg; sourceTree = "<group>"; };
 		2913AFD6E0498CD023C29298 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A23BF2C1BAC48F2007FAD86 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
 		4A23BF2D1BAC48F2007FAD86 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
@@ -455,7 +456,6 @@
 		4A671C741BAD491700D848AD /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
 		4AAF682F1BACF57E00250F55 /* SendCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendCommentViewController.h; sourceTree = "<group>"; };
 		4AAF68301BACF57E00250F55 /* SendCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendCommentViewController.m; sourceTree = "<group>"; };
-		4ABC650B1BA9764F00E9430F /* bg_na.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_na.jpg; sourceTree = "<group>"; };
 		4ABC650C1BA9764F00E9430F /* cityCode.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityCode.plist; sourceTree = "<group>"; };
 		4ABC650F1BA9764F00E9430F /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
 		4ABC65101BA9764F00E9430F /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
@@ -953,7 +953,7 @@
 		4ABC650A1BA9764F00E9430F /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				4ABC650B1BA9764F00E9430F /* bg_na.jpg */,
+				0403508C1BCBEFD100FA1FAB /* bg_fog.jpg */,
 				4ABC650C1BA9764F00E9430F /* cityCode.plist */,
 				4ABC65291BA9764F00E9430F /* weather.plist */,
 				4ABC650D1BA9764F00E9430F /* controller */,
@@ -1735,6 +1735,7 @@
 				TargetAttributes = {
 					4ABD03A41BA8754D008D0ED3 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = D826933468;
 					};
 					4ABD03BD1BA8754D008D0ED3 = {
 						CreatedOnToolsVersion = 6.4;
@@ -1881,6 +1882,7 @@
 				4ABC6B731BA995E300E9430F /* emoticon_keyboard_background@2x.png in Resources */,
 				4ABC6A8A1BA995E300E9430F /* 028.gif in Resources */,
 				4ABD03B41BA8754D008D0ED3 /* Main.storyboard in Resources */,
+				0403508D1BCBEFD100FA1FAB /* bg_fog.jpg in Resources */,
 				4ABC6B691BA995E300E9430F /* 102.png in Resources */,
 				4ABC6A401BA995E300E9430F /* 002@2x.png in Resources */,
 				4ABC6AD91BA995E300E9430F /* 054.png in Resources */,
@@ -2022,7 +2024,6 @@
 				4ABC6B3F1BA995E300E9430F /* 088.png in Resources */,
 				4ABC6A911BA995E300E9430F /* 030.png in Resources */,
 				4ABC6A941BA995E300E9430F /* 031.png in Resources */,
-				4ABC652A1BA9764F00E9430F /* bg_na.jpg in Resources */,
 				4ABC6A781BA995E300E9430F /* 022.gif in Resources */,
 				4ABC6A4C1BA995E300E9430F /* 006@2x.png in Resources */,
 				4ABC6A4F1BA995E300E9430F /* 007@2x.png in Resources */,
@@ -2361,13 +2362,18 @@
 			baseConfigurationReference = DDC2476589A4D7EAA9B51F92 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MojiWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MojiWeather/Common/WXLabel",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
@@ -2377,13 +2383,18 @@
 			baseConfigurationReference = 558D5B2F60E9AB4D69EA570E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MojiWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MojiWeather/Common/WXLabel",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;

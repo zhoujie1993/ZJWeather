@@ -44,7 +44,7 @@
 
     
     UIImageView *imgView = [[UIImageView alloc]initWithFrame:CGRectMake(0,kHeight-64-40, kWidth, kHeight)];
-    imgView.image = [UIImage imageNamed:@"bg_na.jpg"];
+    imgView.image = [UIImage imageNamed:@"bg_fog.jpg"];
     [_scrollView addSubview:imgView];
     
     
